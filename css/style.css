@@ -1,0 +1,88 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+:root{
+     --white-color:hsl(0,0%,100%);
+     --black-color:hsl(0,0%,0%);
+     --red-color:#a71814;
+     --body-ff:'Yusei Magic', sans-serif;
+     --h1-fs: 1.75rem;
+     --normal-fs: 1rem;
+     --small-fs: 0.813rem;
+     --fw-medium:500;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-ff);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+a:hover{
+    color: #890239;
+}
+
+body{
+    background-image: url(../images/red-dead-redemption-2-3376.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    position: relative;
+    width: 25rem;
+    height: 27.5rem;
+    background: transparent;
+    border: 0.125rem solid rgba(254, 0, 0, 0.7);
+    border-radius: 1.25rem;
+    backdrop-filter: blur(1.25rem);
+}
+.color{
+    color:#8A0239;
+}
+.logo:hover{
+  color:#8A0239; ;
+}
+
+.box-acc{
+    position: relative;
+    width: 10rem;
+    height: 12.5rem;
+    background: transparent;
+    border: 0.125rem solid rgba(254, 0, 0, 0.7);
+    border-radius: 1.25rem;
+    backdrop-filter: blur(1.25rem);
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.box-content{
+    background-color:#FEDBC3;
+}
+.circles span:nth-child(1) {
+    background-color: #840237;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.circles span:nth-child(2) {
+    background-color: #FF593C;
+    width: 1.2rem; 
+    height: 1.2rem;
+}
+.circles span:nth-child(3) {
+    background-color:#41163E;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+#boxInfo {
+    background-color: rgba(0,0,0,0.6);
+}
+span{
+    color: #a71814;
+}
